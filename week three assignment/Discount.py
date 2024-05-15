@@ -6,7 +6,7 @@ discount_percent = int(input("Enter the discount percentage: "))
 calculate_discount = price * (discount_percent / 100)
 
 if (discount_percent/100) < (20/100) * price:
-    result = calculate_discount
+    result = "Final price is: ", price - calculate_discount
 else:
     result = price
 
