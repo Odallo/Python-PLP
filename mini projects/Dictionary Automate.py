@@ -2,7 +2,7 @@ import json
 from difflib import get_close_matches
 
 # Load dictionary data from JSON file
-with open('dictionary(1).json') as f:
+with open('dictionary (1).json') as f:
     data = json.load(f)
 
 # Function to get definition of a word
